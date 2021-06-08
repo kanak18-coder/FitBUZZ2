@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".addvideo">
+
+
+    <VideoView
+        android:layout_height="275dp"
+        android:layout_width="410dp"
+        app:layout_constraintVertical_bias="0.002"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/videoView"/>
+
+    <Button
+        android:layout_height="63dp"
+        android:layout_width="265dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/upload"
+        app:layout_constraintTop_toBottomOf="@+id/browse"
+        android:textSize="18sp" android:text="Upload Workout"
+        android:layout_marginBottom="135dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_height="63dp"
+        android:layout_width="265dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/browse"
+        app:layout_constraintTop_toBottomOf="@+id/vtitle"
+        android:textSize="18sp" android:text="Browse Workout"
+        android:layout_marginBottom="39dp"
+        android:layout_marginTop="43dp"
+        app:layout_constraintBottom_toTopOf="@+id/upload"/>
+
+    <EditText
+        android:layout_height="48dp"
+        android:layout_width="263dp"
+        app:layout_constraintVertical_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/vtitle"
+        app:layout_constraintTop_toBottomOf="@+id/videoView"
+        android:textSize="20sp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/browse"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        android:hint="Enter Workout Title"
+        android:ems="10"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

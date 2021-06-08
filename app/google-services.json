@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321467803728",
+    "project_id": "fitbuzz2",
+    "storage_bucket": "fitbuzz2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321467803728:android:7a2cc23448d0df033d8955",
+        "android_client_info": {
+          "package_name": "com.example.fitbuzz2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321467803728-9ngkflj44er3u3ut3rltmsigudsfvkuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAxn4aq6Ud88ksElFf3HS112S6Dloikjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321467803728-9ngkflj44er3u3ut3rltmsigudsfvkuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

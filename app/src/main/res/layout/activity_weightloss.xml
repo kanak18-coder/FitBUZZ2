@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="78dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Weight Loss Diet"
+        android:textSize="40dp"
+        android:background="@drawable/static_rv_bg"
+        android:paddingLeft="40dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingTop="32dp"
+                android:text="Vegeterian:"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="28dp"
+                android:textSize="24dp"
+                android:text="Breakfast:" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" Steel-cut oats with apples, peanut butter, and cinnamon" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="28dp"
+                android:textSize="24dp"
+                android:text="Lunch:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="A salad with greens, hard-boiled eggs, avocado, tomatoes, and balsamic vinaigrette." />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="28dp"
+                android:textSize="24dp"
+                android:text="Dinner:"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Black-bean soup with a dollop of Greek yogurt, whole-grain bread, and a side salad."/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text="Non-Vegeterian:"
+                android:textStyle="bold"
+                android:textSize="32dp"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="28dp"
+                android:textSize="24dp"
+                android:text="Breakfast:" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" Microwave Egg / Chicken/meat sandwich or wraps/ burrito / poached egg. Lean ham, with light cheese." />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="28dp"
+                android:textSize="24dp"
+                android:text="Lunch:"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Chicken breast roasted, Meat salad, Roasted fish. Chicken stew" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner:"
+                android:paddingTop="28dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="White fish, stew, chicken/ham roasted salad, Seared salmon."/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text="Supplements:"
+                android:paddingTop="32dp"
+                android:textStyle="bold"
+                android:textSize="32dp"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" Creatine" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="BCAAs" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:paddingBottom="32dp"
+                android:text="Melatonin." />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

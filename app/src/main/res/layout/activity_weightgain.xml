@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="357dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/static_rv_bg"
+        android:paddingLeft="40dp"
+        android:paddingTop="20dp"
+        android:text="Weight Gain Diet"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Vegeterian:"
+                android:textStyle="bold"
+                android:paddingTop="32dp"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:paddingTop="28dp"
+                android:text="Breakfast:" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" 1 cup oatmeal cooked in 2 cup water "/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="1 Tbsp. chopped walnuts"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunch:"
+                android:paddingTop="28dp"
+                android:textSize="28dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Brown rice,Lentils,curd" />
+         >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner:"
+                android:paddingTop="28dp"
+                android:textSize="28dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Vegetables cooked with potatoes"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text="Non-Vegeterian:"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="32dp"
+                android:textSize="25dp"
+                android:text="Breakfast:" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" 100ml to 250ml Skimmed milk, a small plate of Omelet or Fried eggs with Bread will give you approx. 400 calories and 12 grams of protein." />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunch:"
+                android:paddingTop="28dp"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="3-4 Chapattis with 1 Bowl of Chicken Curry, 1 Bowl of Vegetable Salad, a glass of Lassi/Buttermilk with some Green Grams. You’ll be consuming 700 calories and 30 grams of protein." />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner:"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="3-4 Chapattis with 1 Bowl of Chicken Curry, 1 Bowl of Vegetable Salad, a glass of Lassi/Buttermilk with some Green Grams. You’ll be consuming 700 calories and 30 grams of protein."/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:text="Supplements:"
+                android:paddingTop="32dp"
+                android:textStyle="bold"
+                android:textSize="26dp"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" Creatine" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="BCAAs" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Melatonin."
+                android:paddingBottom="32dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

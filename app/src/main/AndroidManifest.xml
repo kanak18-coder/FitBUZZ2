@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitbuzz2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FitBuzz"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitBUZZ2">
+        <activity android:name=".addvideo"></activity>
+        <activity android:name=".CoachDashboard" />
+        <activity android:name=".CoachLogin" />
+        <activity android:name=".Weightgain" />
+        <activity android:name=".Weightloss" />
+        <activity android:name=".Dietchart" />
+        <activity android:name=".NewMainpage" />
+        <activity android:name=".CoachProfile4" />
+        <activity android:name=".CoachProfile3" />
+        <activity android:name=".CoachProfile2" />
+        <activity android:name=".CoachSignup" />
+        <activity android:name=".CoachCdActivity" />
+        <activity android:name=".CoachProfileActivity" />
+        <activity android:name=".WorkoutActivity" />
+        <activity android:name=".StartWorkAct" />
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

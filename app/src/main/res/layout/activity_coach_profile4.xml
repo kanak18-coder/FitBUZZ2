@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/wallpaper"
+tools:context=".CoachProfileActivity">
+
+<VideoView
+    android:id="@+id/video1"
+    android:layout_width="336dp"
+    android:layout_height="166dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="32dp"
+    android:layout_marginRight="30dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.24"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_500"
+    android:paddingLeft="32dp"
+    android:paddingTop="8dp"
+    android:text="Trainer details"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0" />
+
+<ImageView
+    android:id="@+id/imageButton"
+    android:layout_width="178dp"
+    android:layout_height="159dp"
+    android:layout_marginTop="31dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.068"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView2"
+    app:srcCompat="@drawable/body6" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="174dp"
+    android:layout_height="38dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="36dp"
+    android:text="Sharath"
+    android:textSize="34sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toEndOf="@+id/imageButton"
+    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="166dp"
+    android:layout_height="33dp"
+    android:layout_marginTop="16dp"
+    android:text="BodyBuilder"
+    android:textColor="@color/white"
+    android:textSize="16sp"
+    android:textStyle="bold|italic"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.392"
+    app:layout_constraintStart_toEndOf="@+id/imageButton"
+    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="140dp"
+    android:layout_height="31dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="4dp"
+    android:text="Age : 29"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toEndOf="@+id/imageButton"
+    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="155dp"
+    android:layout_height="40dp"
+    android:text="Contact: 7182298115"
+    android:textSize="14sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.835"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="250dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="32dp"
+    android:background="@drawable/input_bg"
+    android:paddingLeft="32dp"
+    android:text="Workoutplan"
+    android:textSize="24sp"
+    android:textStyle="bold|italic"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.211"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+<ImageView
+    android:id="@+id/imageView9"
+    android:layout_width="163dp"
+    android:layout_height="143dp"
+    android:layout_marginTop="32dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.137"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/video1"
+    app:srcCompat="@drawable/chest" />
+
+<TextView
+    android:id="@+id/fitonetitle"
+    android:layout_width="156dp"
+    android:layout_height="39dp"
+    android:layout_marginTop="72dp"
+    android:text="Chest Workout"
+    android:textColor="#000000"
+    android:textSize="17sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.839"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/video1" />
+
+<TextView
+    android:id="@+id/fitonedesc"
+    android:layout_width="124dp"
+    android:layout_height="46dp"
+    android:layout_marginTop="16dp"
+    android:text="3 To 13 Minutes"
+    android:textColor="#3A3A3A"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="@+id/fitonetitle"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/fitonetitle"
+    app:layout_constraintTop_toBottomOf="@+id/fitonetitle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
